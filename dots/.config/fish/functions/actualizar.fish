@@ -1,5 +1,5 @@
 function actualizar
-    sudo pacman -Syu
+    sudo pacman -Syu --noconfirm
     flatpak upgrade -y
-    yay -Syu
+    yay -Su
 end
